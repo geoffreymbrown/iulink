@@ -1,0 +1,15 @@
+sourceRoot: .
+outputRoot: ../board
+dataRoot: .
+
+freemarkerLinks: {
+    lib: ../../../../ChibiOS/tools/ftl/libs
+}
+
+data : {
+  doc1:xml (
+    board.chcfg
+    {
+    }
+  )
+}

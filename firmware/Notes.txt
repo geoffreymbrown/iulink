@@ -1,0 +1,3 @@
+Had problem with tickless (after some time tag base crashed), changed chconf.h so
+it is no longer tickless and problem disappeared.
+
