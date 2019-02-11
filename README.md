@@ -9,6 +9,10 @@ In our application we needed to include battery charging hardware and did not
 want to ask our biology partners to use a platform cobbled together from
 off-the-shelf stlink hardware + adapter boards + power supplies.
 
+![tags](bittagsbothsides.jpg)
+
+![base](tagbaserender.png)
+
 
 An example board schematic is provided to help understand the code.  There
 are a few things to note about the board design that may not fit your needs
@@ -34,7 +38,7 @@ A few notes about the firmware
 
  2) The firmware includes header information from various sources (marked)
     The position of FSF **seems** to be that a GPL header can be used without
-    forcing the whole to be GPL'd.  I don't no the answer to this
+    forcing the whole to be GPL'd.  I don't know the answer to this
 
  3) In my ChibiOS projects, I use FMPP to generate board .h/.c files.  This
     repo includes the generated files (board/), but if you port this to another
@@ -44,3 +48,4 @@ A few notes about the firmware
     your own VID/PID if you plan to use this code in anything other than
     a hobby/research environment.  We **do not** have permission to use
     this VID/PID
+
