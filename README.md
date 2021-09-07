@@ -49,3 +49,4 @@ A few notes about the firmware
     a hobby/research environment.  We **do not** have permission to use
     this VID/PID
 
+Good Luck !
